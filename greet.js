@@ -6,24 +6,24 @@ module.exports  = function(name){
 
 //console.log(msg)
 
-var fromWhere = function(regNumber){
-  if(regNumber.startsWith('CY')){
-    return "Bellville"
-  }
-  if(regNumber.startsWith('CJ')){
-    return "Paarl"
-  }
-  if(regNumber.startsWith('CA')){
+//var fromWhere = function(regNumber){
+//  if(regNumber.startsWith('CY')){
+//  return "Bellville"
+//  }
+//  if(regNumber.startsWith('CJ')){
+//  return "Paarl"
+//  }
+// if(regNumber.startsWith('CA')){
     return "Cape Town"
-  }
-  else{
-    return "Some other place!";
-  }
-};
+//  }
+   // else{
+    //return "Some other place!";
+  //}
+//};
 
-var place = fromWhere('CY')
+//var place = fromWhere('CY')
 
-console.log(place);
+//console.log(place);
 
 
 
